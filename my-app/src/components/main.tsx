@@ -1,17 +1,12 @@
 import { useRef, useEffect } from "react";
+import { Cards } from "./productCard";
 export function Main() {
-    const ref: any = useRef();
 
-    useEffect(() => {
-        let a: any = ref.current.dataset.name
-        console.log(a, "tttr");
-    }, []);
     return (
-        <div className="pt-32">
-            <input placeholder="name" className="w-32 h-10 border-2 border-black"
-                data-name="thisis"
-                ref={ref}
-            ></input>
+        <div className="pt-32 w-100 m-auto ">
+      
+       
+            <Cards/>
         </div>
     )
 }   
