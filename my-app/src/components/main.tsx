@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { Cards } from "./productCard";
+import {Cards} from "./productCard"
 export function Main() {
 
     return (
